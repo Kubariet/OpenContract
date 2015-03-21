@@ -9,3 +9,35 @@ body {
 	margin-bottom: 30px;
 	color: gray;
 }
+
+.dialog {
+	width: 700px;
+	height: 600px;
+	margin: auto;
+	padding: 20px;
+	background-color: #CFD8DC;
+	border-radius: 5px;
+}
+
+#dropzoneDiv {
+	vertical-align: center;
+	padding-top: 100px;
+}
+
+.centerText {
+	text-align: center;
+	padding: auto;
+	margin: auto;
+}
+
+.buttonSpan {
+	width: 100%;
+	margin: auto;
+	vertical-align: center;
+	padding: auto;
+	text-align: center;
+}
+
+.submitContract {
+	margin: 20px;
+}

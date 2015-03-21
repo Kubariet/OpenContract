@@ -9,3 +9,6 @@ autopublish
 insecure
 mizzao:bootstrap-3
 iron:router
+dbarrett:dropzonejs
+mizzao:jquery-ui
+jquery

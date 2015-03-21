@@ -1,0 +1,38 @@
+<template name="newContractDialog">
+  <div class="dialog">
+
+    <h2>New Contract</h2>
+    <p>
+      To:<span> <input type="text" placeholder=" Target Address"/></span>
+    </p>
+    <p>
+      Expiration Date: <input type="text" placeholder=" Contract Invalid At" id="datepicker">
+    </p>
+    <!-- <form action="/upload-target" class="dropzone"></form> -->
+    {{> dropzone url="http://localhost:3000/upload" id="dropzoneDiv"}}
+    <div class="buttonSpan">
+      <button type="submit" class="submitContract" value="cancel">Cancel</button>
+      <button type="submit" class="submitContract" value="submit">Submit</button>
+    </div>
+    <script>
+      var text = document.createElement("p");
+      text.innerHTML = "Drag and drop contract here";
+      var textOr = document.createElement("p");
+      textOr.innerHTML = "or";
+      var button = document.createElement("p");
+      button.innerHTML = "Click here";
+
+      text.className = "centerText";
+      textOr.className = "centerText";
+      button.className = "centerText";
+      var dropzone = document.getElementById("dropzoneDiv");
+      dropzone.appendChild(text);
+      dropzone.appendChild(textOr);
+      dropzone.appendChild(button);
+
+      $(function() {
+        $("#datepicker").datepicker();
+      });
+    </script>
+  </div>
+</template>
