@@ -6,6 +6,7 @@ body {
 #navBar {
 	text-align: right;
 	border: none;
+	margin-top: 0.5cm;
 	margin-bottom: 30px;
 	color: gray;
 }
