@@ -1,0 +1,11 @@
+body {
+	font-family : "Lato";
+	font-weight : "300";
+}
+
+#navBar {
+	text-align: right;
+	border: none;
+	margin-bottom: 30px;
+	color: gray;
+}
