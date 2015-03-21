@@ -11,3 +11,6 @@ mizzao:bootstrap-3
 iron:router
 accounts-ui
 accounts-password
+dbarrett:dropzonejs
+mizzao:jquery-ui
+jquery
